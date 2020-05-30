@@ -1,0 +1,46 @@
+#titre_commande
+{
+    position:relative;
+    text-align: center;
+    font-size: 50px
+}
+
+#name_carte
+{
+    font-size: 30px;
+}
+
+.border_paiement
+{
+    border: 2px solid black;
+    width:200px;
+    height:30px;
+}
+
+#texte_boite
+{
+    font-size: 20px;
+}
+
+.name_case
+{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 60px;
+    align-items: flex-start;
+}
+
+.background_jaune
+{
+    background-color: #ffcc00;
+    margin-top: 50px;
+}
+
+.case_payer
+{
+    border:1px solid black;
+    width:200px;
+    height:60px;
+    
+}

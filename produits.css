@@ -1,0 +1,126 @@
+body, html
+{
+    font-family: 'lato';
+}
+
+/* Header */
+
+#titre_visited
+{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    font-style:italic;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    #list-style-type: none; 
+    margin-top: 30px;
+}
+
+#photo_intro
+{
+    position:relative;
+    display:block;
+    margin:auto;
+    width:70%;
+    text-align: center;
+}
+    
+
+#photo_intro:hover p
+{
+    display:flex;
+    position:absolute;
+    text-align: center;
+    top:250px;
+    right: 500px;
+    color:white;
+    font-size: 3em;
+    visibility: visible;
+}
+
+#texte_transparent
+{
+    visibility: hidden;
+    display:none;
+}
+
+#photo_intro:hover img
+{
+    filter: brightness(60%);
+    transition: 0.5s;
+}
+
+
+/*Collier*/
+
+#titre_collier
+{
+    font-size:50px;
+    position:relative;
+    text-align:center;
+    margin-top: 80px;
+}
+
+#sous_titre
+{
+    font-style:italic;
+    font-size:30px;
+    color: darkgrey;
+    text-align: center;
+    margin-top:10px;
+}
+ 
+.photo_bijoux
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 1%;
+    position: relative;
+    width: 65%;
+    margin-top:40px;
+}
+
+.background_bande
+{
+    background-color: #ffcc00;
+    margin-top: 100px;
+}
+
+.texte_bijoux
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size:30px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.prix_bijoux
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
+#titre_bracelet
+{
+    font-size:50px;
+    position:relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#titre_boucle_oreille
+{
+    font-size:50px;
+    position:relative;
+    text-align: center;
+    margin-top: 100px;
+}
