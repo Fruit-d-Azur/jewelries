@@ -11,7 +11,8 @@
 }
 
 .container2 {
-    max-width: 900px;
+    /*max-width: 900px;*/
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
@@ -64,7 +65,7 @@
 }
 
 .btn-header {
-    margin: .5em 15% 2em 15%;
+    margin: .5em 15% 2em 15%im;
     color: white;
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
@@ -100,7 +101,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #2D9CDB;
+    background-color: black;
 }
 
 .tour-row {
@@ -133,7 +134,7 @@
 }
 
 .tour-btn {
-    max-width: 19%;
+    /max-width: 19%;*/
 }
 
 .shop-item {
@@ -151,7 +152,12 @@
 }
 
 .shop-item-image {
-    height: 250px;
+    height: 400px;
+    width: 450px;
+}
+
+.shop-item-image:hover {
+    filter: brightness(70%)
 }
 
 .shop-item-details {
